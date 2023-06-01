@@ -1,0 +1,141 @@
+<mvc:View xmlns:table="sap.ui.table" 
+controllerName="campeonatobrasileiro.controller.Main"
+    xmlns:c="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+       <ObjectHeader 
+       title="Campeonato Brasileiro 2023 - FioriNET"
+       number="9a"
+       numberUnit="Rodada"
+       ></ObjectHeader> 
+        <IconTabBar>
+            <items>
+                <IconTabFilter text="Classificação" 
+                icon="sap-icon://competitor"
+                key="classificacao">
+
+                    <!-- tabela  -->
+                    <Table>
+                        <columns>
+                            <!-- posição -->
+                            <Column width="3%">
+                                <Text text=""></Text>
+                            </Column>
+                            <!-- escudo -->
+                            <Column width="5%">
+                                <Text text=""></Text>
+                            </Column>
+                            <!-- time -->
+                            <Column width="auto">
+                                <Text text="Time"></Text>
+                            </Column>
+                            <!-- pontos -->
+                            <Column width="auto">
+                                <Text text="Pts"></Text>
+                            </Column>
+                            <!-- partidas jogadas -->
+                            <Column width="auto">
+                                <Text text="PJ"></Text>
+                            </Column>
+                            <!-- vitórias -->
+                            <Column width="auto">
+                                <Text text="VIT"></Text>
+                            </Column>
+                            <!-- empates -->
+                            <Column width="auto">
+                                <Text text="E"></Text>
+                            </Column>
+                            <!-- derrotas -->
+                            <Column>
+                                <Text text="DER"></Text>
+                            </Column>
+                            <!-- gols marcados -->
+                            <Column width="auto">
+                                <Text text="GM"></Text>
+                            </Column>
+                            <!-- gol contra -->
+                            <Column width="auto">
+                                <Text text="GC"></Text>
+                            </Column >
+                            <!-- saldo de gols -->
+                            <Column width="auto">
+                                <Text text="SG"></Text>
+                            </Column>
+                        </columns>
+
+                        <items>
+                            <ColumnListItem >
+                                <cells>
+                                    <!-- 1a coluna posição -->
+                                    <Text text="1"></Text>
+                                    <!-- 2a coluna escudo-->
+                                    <Image width="35%"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/1200px-Botafogo_de_Futebol_e_Regatas_logo.svg.png"></Image>
+                                    <!-- 3a coluna time-->
+                                    <Text text="Botafogo"></Text>
+                                    <!-- 4a coluna pontos-->
+                                    <Text text="21"></Text>
+                                    <!-- 5a coluna jogos-->
+                                    <Text text="8"></Text>
+                                    <!-- 6a coluna vitorias-->
+                                    <Text text="7"></Text>
+                                    <!-- 7a coluna empates -->
+                                    <Text text="0"></Text>
+                                    <!-- 8a coluna derrotas-->
+                                    <Text text="1"></Text>
+                                    <!-- 9a coluna gm -->
+                                    <Text text="16"></Text>
+                                    <!-- 10a coluna gc-->
+                                    <Text text="6"></Text>
+                                    <!-- 11a coluna saldo gols-->
+                                    <Text text="10"></Text>
+                                </cells>
+                            </ColumnListItem>
+
+                            <ColumnListItem >
+                                <cells>
+                                    <!-- 1a coluna posição -->
+                                    <Text text="2"></Text>
+                                    <!-- 2a coluna escudo-->
+                                    <Image width="35%"
+                                    src="https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"></Image>
+                                    <!-- 3a coluna time-->
+                                    <Text text="Palmeiras"></Text>
+                                    <!-- 4a coluna pontos-->
+                                    <Text text="16"></Text>
+                                    <!-- 5a coluna jogos-->
+                                    <Text text="8"></Text>
+                                    <!-- 6a coluna vitorias-->
+                                    <Text text="4"></Text>
+                                    <!-- 7a coluna empates -->
+                                    <Text text="4"></Text>
+                                    <!-- 8a coluna derrotas-->
+                                    <Text text="0"></Text>
+                                    <!-- 9a coluna gm -->
+                                    <Text text="17"></Text>
+                                    <!-- 10a coluna gc-->
+                                    <Text text="7"></Text>
+                                    <!-- 11a coluna saldo gols-->
+                                    <Text text="10"></Text>
+                                </cells>
+                            </ColumnListItem>
+                        </items>
+
+                    </Table>
+                </IconTabFilter>
+
+                <IconTabFilter text="Partidas" 
+                icon="sap-icon://soccer"
+                key="partidas">
+
+            <!-- para funcionar colocar propriedade xmlns:c="sap.ui.core" dentro da tag view-->
+            <!-- ver linha 3-->
+                <c:Fragment fragmentName="campeonatobrasileiro.view.partidas" type="XML" />
+
+                </IconTabFilter>
+            </items>
+        </IconTabBar>
+
+    </Page>
+</mvc:View>
