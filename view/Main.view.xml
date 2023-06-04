@@ -5,10 +5,19 @@ controllerName="campeonatobrasileiro.controller.Main"
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
        <ObjectHeader 
-       title="Campeonato Brasileiro 2023 - FioriNET"
-       number="9a"
+       title="{ModeloDadosGerais>/campeonato}"
+            number="{ModeloDadosGerais>/rodada}"
        numberUnit="Rodada"
-       ></ObjectHeader> 
+       >
+       <attributes>
+        <ObjectAttribute
+				title="Aula Bonus">
+				<customContent>
+					<Link text="Clique Aqui" href="https://bit.ly/3IijSdH" target="_blank" />
+				</customContent>
+			</ObjectAttribute>
+    </attributes>
+    </ObjectHeader> 
         <IconTabBar>
             <items>
                 <IconTabFilter text="Classificação" 
@@ -16,7 +25,7 @@ controllerName="campeonatobrasileiro.controller.Main"
                 key="classificacao">
 
                     <!-- tabela  -->
-                    <Table>
+                    <Table items="{ClassificacaoModel>/Classificacao}">
                         <columns>
                             <!-- posição -->
                             <Column width="3%">
@@ -68,14 +77,14 @@ controllerName="campeonatobrasileiro.controller.Main"
                             <ColumnListItem >
                                 <cells>
                                     <!-- 1a coluna posição -->
-                                    <Text text="1"></Text>
+                                    <Text text="{ClassificacaoModel>posicao}"></Text>
                                     <!-- 2a coluna escudo-->
-                                    <Image width="35%"
-                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Botafogo_de_Futebol_e_Regatas_logo.svg/1200px-Botafogo_de_Futebol_e_Regatas_logo.svg.png"></Image>
+                                    <Image width="45%"
+                                    src="{ClassificacaoModel>time/escudo}"></Image>
                                     <!-- 3a coluna time-->
-                                    <Text text="Botafogo"></Text>
+                                    <Text text="{ClassificacaoModel>time/nome_popular}"></Text>
                                     <!-- 4a coluna pontos-->
-                                    <Text text="21"></Text>
+                                    <Text text="{ClassificacaoModel>pontos}"></Text>
                                     <!-- 5a coluna jogos-->
                                     <Text text="8"></Text>
                                     <!-- 6a coluna vitorias-->
@@ -93,33 +102,7 @@ controllerName="campeonatobrasileiro.controller.Main"
                                 </cells>
                             </ColumnListItem>
 
-                            <ColumnListItem >
-                                <cells>
-                                    <!-- 1a coluna posição -->
-                                    <Text text="2"></Text>
-                                    <!-- 2a coluna escudo-->
-                                    <Image width="35%"
-                                    src="https://a.espncdn.com/i/teamlogos/soccer/500/2029.png"></Image>
-                                    <!-- 3a coluna time-->
-                                    <Text text="Palmeiras"></Text>
-                                    <!-- 4a coluna pontos-->
-                                    <Text text="16"></Text>
-                                    <!-- 5a coluna jogos-->
-                                    <Text text="8"></Text>
-                                    <!-- 6a coluna vitorias-->
-                                    <Text text="4"></Text>
-                                    <!-- 7a coluna empates -->
-                                    <Text text="4"></Text>
-                                    <!-- 8a coluna derrotas-->
-                                    <Text text="0"></Text>
-                                    <!-- 9a coluna gm -->
-                                    <Text text="17"></Text>
-                                    <!-- 10a coluna gc-->
-                                    <Text text="7"></Text>
-                                    <!-- 11a coluna saldo gols-->
-                                    <Text text="10"></Text>
-                                </cells>
-                            </ColumnListItem>
+                            
                         </items>
 
                     </Table>

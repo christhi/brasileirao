@@ -4,6 +4,7 @@
 >
 
 <Table id="partidasTable" headerText="9ª Rodada"
+    items="{PartidasModel>/partidas}"
     inset="false">
     <columns>
         <Column width="10%" hAlign="Right">
@@ -22,25 +23,16 @@
     <items>
         <ColumnListItem vAlign="Middle">
             <cells>
-                <Image src="https://cdn.api-futebol.com.br/escudos/638d34c76d067.svg" width="15%" />
+                <Image src="{PartidasModel>time_mandante/escudo}" width="15%" />
                 <VBox>
-                    <Text text="Fortaleza x Bahia" />
-                    <Text text="03/06/2023 16:00" />
+                    <Text text="{PartidasModel>placar}" />
+                    <Text text="{PartidasModel>data_realizacao} {PartidasModel>hora_realizacao}" />
+                    <Text text="{PartidasModel>status}" />
                 </VBox>
-                <Image src="https://cdn.api-futebol.com.br/escudos/638d34a8b6bd8.svg" width="15%" />
+                <Image src="{PartidasModel>time_visitante/escudo}" width="15%" />
             </cells>
         </ColumnListItem>
 
-        <ColumnListItem vAlign="Middle">
-            <cells>
-                <Image src="https://cdn.api-futebol.com.br/escudos/638d34984830b.svg" width="15%" />
-                <VBox>
-                    <Text text="Cruzeiro x Atlético-MG" />
-                    <Text text="03/06/2023 18:30" />
-                </VBox>
-                <Image src="https://cdn.api-futebol.com.br/escudos/638d3494f3380.svg" width="15%" />
-            </cells>
-        </ColumnListItem>
     </items>
 </Table>
 </c:FragmentDefinition>

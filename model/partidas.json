@@ -1,0 +1,361 @@
+{
+    "nome": "9ª Rodada",
+    "slug": "9a-rodada",
+    "rodada": 9,
+    "status": "agendada",
+    "proxima_rodada": {
+        "nome": "10ª Rodada",
+        "slug": "10a-rodada",
+        "rodada": 10,
+        "status": "agendada"
+    },
+    "rodada_anterior": {
+        "nome": "8ª Rodada",
+        "slug": "8a-rodada",
+        "rodada": 8,
+        "status": "encerrada"
+    },
+    "partidas": [
+        {
+            "partida_id": 9086,
+            "campeonato": {
+                "campeonato_id": 10,
+                "nome": "Campeonato Brasileiro",
+                "slug": "campeonato-brasileiro"
+            },
+            "placar": "Fortaleza x Bahia",
+            "time_mandante": {
+                "time_id": 131,
+                "nome_popular": "Fortaleza",
+                "sigla": "FOR",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34c76d067.svg"
+            },
+            "time_visitante": {
+                "time_id": 68,
+                "nome_popular": "Bahia",
+                "sigla": "BAH",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34a8b6bd8.svg"
+            },
+            "placar_mandante": null,
+            "placar_visitante": null,
+            "disputa_penalti": false,
+            "status": "agendado",
+            "slug": "fortaleza-bahia-9086",
+            "data_realizacao": "03/06/2023",
+            "hora_realizacao": "16:00",
+            "data_realizacao_iso": "2023-06-03T16:00:00-0300",
+            "estadio": {
+                "estadio_id": 112,
+                "nome_popular": "Castelão (CE)"
+            },
+            "_link": "/v1/partidas/9086"
+        },
+        {
+            "partida_id": 9083,
+            "campeonato": {
+                "campeonato_id": 10,
+                "nome": "Campeonato Brasileiro",
+                "slug": "campeonato-brasileiro"
+            },
+            "placar": "Cruzeiro x Atlético-MG",
+            "time_mandante": {
+                "time_id": 37,
+                "nome_popular": "Cruzeiro",
+                "sigla": "CRU",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34984830b.svg"
+            },
+            "time_visitante": {
+                "time_id": 30,
+                "nome_popular": "Atlético-MG",
+                "sigla": "CAM",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d3494f3380.svg"
+            },
+            "placar_mandante": null,
+            "placar_visitante": null,
+            "disputa_penalti": false,
+            "status": "agendado",
+            "slug": "cruzeiro-atletico-mg-9083",
+            "data_realizacao": "03/06/2023",
+            "hora_realizacao": "18:30",
+            "data_realizacao_iso": "2023-06-03T18:30:00-0300",
+            "estadio": {
+                "estadio_id": 39,
+                "nome_popular": "Parque do Sabiá"
+            },
+            "_link": "/v1/partidas/9083"
+        },
+        {
+            "partida_id": 9085,
+            "campeonato": {
+                "campeonato_id": 10,
+                "nome": "Campeonato Brasileiro",
+                "slug": "campeonato-brasileiro"
+            },
+            "placar": "Athletico-PR x Botafogo",
+            "time_mandante": {
+                "time_id": 185,
+                "nome_popular": "Athletico-PR",
+                "sigla": "CAP",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34e1b8948.svg"
+            },
+            "time_visitante": {
+                "time_id": 22,
+                "nome_popular": "Botafogo",
+                "sigla": "BOT",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d349052558.svg"
+            },
+            "placar_mandante": null,
+            "placar_visitante": null,
+            "disputa_penalti": false,
+            "status": "agendado",
+            "slug": "athletico-pr-botafogo-9085",
+            "data_realizacao": "03/06/2023",
+            "hora_realizacao": "18:30",
+            "data_realizacao_iso": "2023-06-03T18:30:00-0300",
+            "estadio": {
+                "estadio_id": 291,
+                "nome_popular": "Arena da Baixada"
+            },
+            "_link": "/v1/partidas/9085"
+        },
+        {
+            "partida_id": 9087,
+            "campeonato": {
+                "campeonato_id": 10,
+                "nome": "Campeonato Brasileiro",
+                "slug": "campeonato-brasileiro"
+            },
+            "placar": "América-MG x Corinthians",
+            "time_mandante": {
+                "time_id": 33,
+                "nome_popular": "América-MG",
+                "sigla": "AMG",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34966e9c6.svg"
+            },
+            "time_visitante": {
+                "time_id": 65,
+                "nome_popular": "Corinthians",
+                "sigla": "COR",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34a68419f.svg"
+            },
+            "placar_mandante": null,
+            "placar_visitante": null,
+            "disputa_penalti": false,
+            "status": "agendado",
+            "slug": "america-mg-corinthians-9087",
+            "data_realizacao": "03/06/2023",
+            "hora_realizacao": "18:30",
+            "data_realizacao_iso": "2023-06-03T18:30:00-0300",
+            "estadio": {
+                "estadio_id": 27,
+                "nome_popular": "Independência"
+            },
+            "_link": "/v1/partidas/9087"
+        },
+        {
+            "partida_id": 9081,
+            "campeonato": {
+                "campeonato_id": 10,
+                "nome": "Campeonato Brasileiro",
+                "slug": "campeonato-brasileiro"
+            },
+            "placar": "Santos x Internacional",
+            "time_mandante": {
+                "time_id": 63,
+                "nome_popular": "Santos",
+                "sigla": "SAN",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34a5749d6.svg"
+            },
+            "time_visitante": {
+                "time_id": 44,
+                "nome_popular": "Internacional",
+                "sigla": "INT",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d349b92103.svg"
+            },
+            "placar_mandante": null,
+            "placar_visitante": null,
+            "disputa_penalti": false,
+            "status": "agendado",
+            "slug": "santos-internacional-9081",
+            "data_realizacao": "03/06/2023",
+            "hora_realizacao": "21:00",
+            "data_realizacao_iso": "2023-06-03T21:00:00-0300",
+            "estadio": {
+                "estadio_id": 66,
+                "nome_popular": "Vila Belmiro"
+            },
+            "_link": "/v1/partidas/9081"
+        },
+        {
+            "partida_id": 9078,
+            "campeonato": {
+                "campeonato_id": 10,
+                "nome": "Campeonato Brasileiro",
+                "slug": "campeonato-brasileiro"
+            },
+            "placar": "Fluminense x Bragantino",
+            "time_mandante": {
+                "time_id": 26,
+                "nome_popular": "Fluminense",
+                "sigla": "FLU",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d3492a6e0b.svg"
+            },
+            "time_visitante": {
+                "time_id": 64,
+                "nome_popular": "Bragantino",
+                "sigla": "BGT",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34a5db2ec.svg"
+            },
+            "placar_mandante": null,
+            "placar_visitante": null,
+            "disputa_penalti": false,
+            "status": "agendado",
+            "slug": "fluminense-bragantino-9078",
+            "data_realizacao": "04/06/2023",
+            "hora_realizacao": "16:00",
+            "data_realizacao_iso": "2023-06-04T16:00:00-0300",
+            "estadio": {
+                "estadio_id": 19,
+                "nome_popular": "Maracanã"
+            },
+            "_link": "/v1/partidas/9078"
+        },
+        {
+            "partida_id": 9084,
+            "campeonato": {
+                "campeonato_id": 10,
+                "nome": "Campeonato Brasileiro",
+                "slug": "campeonato-brasileiro"
+            },
+            "placar": "Grêmio x São Paulo",
+            "time_mandante": {
+                "time_id": 45,
+                "nome_popular": "Grêmio",
+                "sigla": "GRE",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d349c32bf1.svg"
+            },
+            "time_visitante": {
+                "time_id": 57,
+                "nome_popular": "São Paulo",
+                "sigla": "SAO",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34a23c311.svg"
+            },
+            "placar_mandante": null,
+            "placar_visitante": null,
+            "disputa_penalti": false,
+            "status": "agendado",
+            "slug": "gremio-sao-paulo-9084",
+            "data_realizacao": "04/06/2023",
+            "hora_realizacao": "16:00",
+            "data_realizacao_iso": "2023-06-04T16:00:00-0300",
+            "estadio": {
+                "estadio_id": 54,
+                "nome_popular": "Arena do Grêmio"
+            },
+            "_link": "/v1/partidas/9084"
+        },
+        {
+            "partida_id": 9080,
+            "campeonato": {
+                "campeonato_id": 10,
+                "nome": "Campeonato Brasileiro",
+                "slug": "campeonato-brasileiro"
+            },
+            "placar": "Palmeiras x Coritiba",
+            "time_mandante": {
+                "time_id": 56,
+                "nome_popular": "Palmeiras",
+                "sigla": "PAL",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34a1cf247.svg"
+            },
+            "time_visitante": {
+                "time_id": 84,
+                "nome_popular": "Coritiba",
+                "sigla": "CFC",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34b1296c2.svg"
+            },
+            "placar_mandante": null,
+            "placar_visitante": null,
+            "disputa_penalti": false,
+            "status": "agendado",
+            "slug": "palmeiras-coritiba-9080",
+            "data_realizacao": "04/06/2023",
+            "hora_realizacao": "18:30",
+            "data_realizacao_iso": "2023-06-04T18:30:00-0300",
+            "estadio": {
+                "estadio_id": 327,
+                "nome_popular": "Allianz Parque"
+            },
+            "_link": "/v1/partidas/9080"
+        },
+        {
+            "partida_id": 9082,
+            "campeonato": {
+                "campeonato_id": 10,
+                "nome": "Campeonato Brasileiro",
+                "slug": "campeonato-brasileiro"
+            },
+            "placar": "Goiás x Cuiabá",
+            "time_mandante": {
+                "time_id": 115,
+                "nome_popular": "Goiás",
+                "sigla": "GOI",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34c1c1d9f.svg"
+            },
+            "time_visitante": {
+                "time_id": 204,
+                "nome_popular": "Cuiabá",
+                "sigla": "CUI",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d34ebcdafa.svg"
+            },
+            "placar_mandante": null,
+            "placar_visitante": null,
+            "disputa_penalti": false,
+            "status": "agendado",
+            "slug": "goias-cuiaba-9082",
+            "data_realizacao": "04/06/2023",
+            "hora_realizacao": "18:30",
+            "data_realizacao_iso": "2023-06-04T18:30:00-0300",
+            "estadio": {
+                "estadio_id": 543,
+                "nome_popular": "Hailé Pinheiro (Serrinha)"
+            },
+            "_link": "/v1/partidas/9082"
+        },
+        {
+            "partida_id": 9079,
+            "campeonato": {
+                "campeonato_id": 10,
+                "nome": "Campeonato Brasileiro",
+                "slug": "campeonato-brasileiro"
+            },
+            "placar": "Vasco x Flamengo",
+            "time_mandante": {
+                "time_id": 23,
+                "nome_popular": "Vasco",
+                "sigla": "VAS",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d3490f1e73.svg"
+            },
+            "time_visitante": {
+                "time_id": 18,
+                "nome_popular": "Flamengo",
+                "sigla": "FLA",
+                "escudo": "https://cdn.api-futebol.com.br/escudos/638d348e3f815.svg"
+            },
+            "placar_mandante": null,
+            "placar_visitante": null,
+            "disputa_penalti": false,
+            "status": "agendado",
+            "slug": "vasco-flamengo-9079",
+            "data_realizacao": "05/06/2023",
+            "hora_realizacao": "20:00",
+            "data_realizacao_iso": "2023-06-05T20:00:00-0300",
+            "estadio": {
+                "estadio_id": 19,
+                "nome_popular": "Maracanã"
+            },
+            "_link": "/v1/partidas/9079"
+        }
+    ],
+    "_link": "/v1/campeonatos/10/rodadas/9"
+}
